@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — DM Bouw en Onderhoud</title>
+  <meta name="description" content="Bekijk eerder uitgevoerde projecten van DM Bouw en Onderhoud. Verbouwingen, onderhoud en klussen in Apeldoorn en omgeving.">
+  <link rel="canonical" href="https://dmbouwenonderhoud.nl/portfolio.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <nav class="nav-container">
+      <a href="/" class="nav-logo"><img src="images/logo-full.jpeg" alt="DM Bouw en Onderhoud" height="48"></a>
+      <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/diensten.html">Diensten</a></li>
+        <li><a href="/over-ons.html">Over ons</a></li>
+        <li><a href="/portfolio.html">Portfolio</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="tel:+31651989766" class="nav-cta">Bel direct</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <h1>Portfolio</h1>
+    <p>Een greep uit onze recente projecten in de regio Apeldoorn.</p>
+  </section>
+
+  <section class="page-content">
+    <div class="container" style="max-width:var(--max-width);">
+      <p>Foto's van recente projecten worden binnenkort toegevoegd. Benieuwd naar wat DM Bouw en Onderhoud voor u kan betekenen? Neem contact op voor referenties of een vrijblijvend gesprek.</p>
+
+      <div class="portfolio-grid" style="margin-top:40px;">
+        <div class="portfolio-item">
+          <div class="placeholder-img">Foto volgt</div>
+          <div class="portfolio-caption">
+            <h3>Project 1</h3>
+            <p>Beschrijving volgt.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="placeholder-img">Foto volgt</div>
+          <div class="portfolio-caption">
+            <h3>Project 2</h3>
+            <p>Beschrijving volgt.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="placeholder-img">Foto volgt</div>
+          <div class="portfolio-caption">
+            <h3>Project 3</h3>
+            <p>Beschrijving volgt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Uw klus bespreken?</h2>
+      <p>Bel Danny voor een gratis adviesgesprek.</p>
+      <div class="hero-actions">
+        <a href="tel:+31651989766" class="btn btn-primary">Bel 06-51989766</a>
+        <a href="/contact.html" class="btn btn-secondary">Stuur een bericht</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="images/logo-mark.jpeg" alt="DM" height="40" class="footer-logo">
+        <p>DM Bouw en Onderhoud<br>Uw vaste klussenbedrijf in<br>Apeldoorn en omgeving.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pagina's</h4>
+        <ul><li><a href="/">Home</a></li><li><a href="/diensten.html">Diensten</a></li><li><a href="/over-ons.html">Over ons</a></li><li><a href="/portfolio.html">Portfolio</a></li><li><a href="/contact.html">Contact</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul><li><a href="tel:+31651989766">06-51989766</a></li><li><a href="mailto:info@dmbouwenonderhoud.nl">info@dmbouwenonderhoud.nl</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>&copy; 2026 DM Bouw en Onderhoud — Danny Musse.</p></div></div>
+  </footer>
+  <script>const toggle=document.querySelector('.nav-toggle'),links=document.querySelector('.nav-links');toggle.addEventListener('click',()=>{const o=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',!o);links.classList.toggle('open')});const header=document.getElementById('header');window.addEventListener('scroll',()=>{header.classList.toggle('scrolled',window.scrollY>40)});</script>
+</body>
+</html>

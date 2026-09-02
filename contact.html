@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — DM Bouw en Onderhoud</title>
+  <meta name="description" content="Neem contact op met Danny Musse van DM Bouw en Onderhoud. Bel 06-51989766 of stuur een bericht voor een gratis adviesgesprek.">
+  <link rel="canonical" href="https://dmbouwenonderhoud.nl/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <nav class="nav-container">
+      <a href="/" class="nav-logo"><img src="images/logo-full.jpeg" alt="DM Bouw en Onderhoud" height="48"></a>
+      <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/diensten.html">Diensten</a></li>
+        <li><a href="/over-ons.html">Over ons</a></li>
+        <li><a href="/portfolio.html">Portfolio</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="tel:+31651989766" class="nav-cta">Bel direct</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <h1>Contact</h1>
+    <p>Gratis adviesgesprek? Bel Danny of stuur een bericht.</p>
+  </section>
+
+  <section class="page-content">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;max-width:none;">
+        <div>
+          <h2 style="margin-top:0;">Stuur een bericht</h2>
+          <form class="contact-form" action="https://formsubmit.co/info@dmbouwenonderhoud.nl" method="POST">
+            <input type="hidden" name="_subject" value="Nieuw bericht via website">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://dmbouwenonderhoud.nl/bedankt.html">
+            <div class="form-group">
+              <label for="naam">Naam</label>
+              <input type="text" id="naam" name="naam" required>
+            </div>
+            <div class="form-group">
+              <label for="telefoon">Telefoonnummer</label>
+              <input type="tel" id="telefoon" name="telefoon">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mailadres</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="bericht">Uw bericht</label>
+              <textarea id="bericht" name="bericht" placeholder="Beschrijf kort uw klus of vraag..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Verstuur bericht</button>
+          </form>
+        </div>
+        <div>
+          <h2 style="margin-top:0;">Direct contact</h2>
+          <p>Liever even bellen? Danny is bereikbaar op werkdagen van 07:00 tot 18:00.</p>
+          
+          <div style="margin:32px 0;">
+            <p style="margin-bottom:8px;"><strong style="color:var(--navy);">Telefoon</strong></p>
+            <p><a href="tel:+31651989766" style="font-size:1.2rem;font-weight:600;">06-51989766</a></p>
+          </div>
+          
+          <div style="margin:32px 0;">
+            <p style="margin-bottom:8px;"><strong style="color:var(--navy);">E-mail</strong></p>
+            <p><a href="mailto:info@dmbouwenonderhoud.nl">info@dmbouwenonderhoud.nl</a></p>
+          </div>
+          
+          <div style="margin:32px 0;">
+            <p style="margin-bottom:8px;"><strong style="color:var(--navy);">Werkgebied</strong></p>
+            <p>Apeldoorn en omgeving (straal van ca. 25 km), inclusief Deventer, Zutphen, Harderwijk, Epe en alle tussenliggende dorpen.</p>
+          </div>
+
+          <div style="margin:32px 0;">
+            <p style="margin-bottom:8px;"><strong style="color:var(--navy);">Bereikbaar</strong></p>
+            <p>Ma t/m vr: 07:00 – 18:00<br>Za &amp; zo: op afspraak</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="images/logo-mark.jpeg" alt="DM" height="40" class="footer-logo">
+        <p>DM Bouw en Onderhoud<br>Uw vaste klussenbedrijf in<br>Apeldoorn en omgeving.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pagina's</h4>
+        <ul><li><a href="/">Home</a></li><li><a href="/diensten.html">Diensten</a></li><li><a href="/over-ons.html">Over ons</a></li><li><a href="/portfolio.html">Portfolio</a></li><li><a href="/contact.html">Contact</a></li></ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul><li><a href="tel:+31651989766">06-51989766</a></li><li><a href="mailto:info@dmbouwenonderhoud.nl">info@dmbouwenonderhoud.nl</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>&copy; 2026 DM Bouw en Onderhoud — Danny Musse.</p></div></div>
+  </footer>
+  <script>const toggle=document.querySelector('.nav-toggle'),links=document.querySelector('.nav-links');toggle.addEventListener('click',()=>{const o=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',!o);links.classList.toggle('open')});const header=document.getElementById('header');window.addEventListener('scroll',()=>{header.classList.toggle('scrolled',window.scrollY>40)});</script>
+</body>
+</html>

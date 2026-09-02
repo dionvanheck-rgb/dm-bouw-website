@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diensten — DM Bouw en Onderhoud</title>
+  <meta name="description" content="Verbouwingen, onderhoud, reparaties en klussen in en om het huis. Bekijk wat DM Bouw en Onderhoud voor u kan betekenen in Apeldoorn en omgeving.">
+  <link rel="canonical" href="https://dmbouwenonderhoud.nl/diensten.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <nav class="nav-container">
+      <a href="/" class="nav-logo"><img src="images/logo-full.jpeg" alt="DM Bouw en Onderhoud" height="48"></a>
+      <button class="nav-toggle" aria-label="Menu openen" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/diensten.html">Diensten</a></li>
+        <li><a href="/over-ons.html">Over ons</a></li>
+        <li><a href="/portfolio.html">Portfolio</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="tel:+31651989766" class="nav-cta">Bel direct</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <h1>Onze diensten</h1>
+    <p>Van klein onderhoud tot complete verbouwingen — DM Bouw en Onderhoud regelt het.</p>
+  </section>
+
+  <section class="page-content">
+    <div class="container">
+      <h2>Verbouwingen</h2>
+      <p>Of u nu een muur wilt verplaatsen, twee kamers wilt samenvoegen of een volledige verdieping opnieuw wilt indelen — Danny denkt mee over de beste aanpak en voert het werk vakkundig uit. U krijgt vooraf een heldere offerte met een vaste prijs, zodat u precies weet waar u aan toe bent.</p>
+
+      <h2>Onderhoud</h2>
+      <p>Regelmatig onderhoud verlengt de levensduur van uw woning of bedrijfspand. Denk aan schilderwerk, voegwerk, het vervangen van kozijnen, dakgootreiniging of het herstellen van houtrot. DM Bouw en Onderhoud werkt nauwkeurig en met oog voor detail.</p>
+
+      <h2>Reparaties</h2>
+      <p>Een lekkende kraan, loszittende tegels, een klemmende deur of een kapotte schutting? Kleine klussen die u zelf niet kunt of wilt doen, lost Danny snel en vakkundig op. Vaak zelfs binnen een week na uw telefoontje.</p>
+
+      <h2>Klussen in en om het huis</h2>
+      <p>Vloeren leggen, een nieuwe keuken plaatsen, schuttingen bouwen, tegels zetten of een zolder verbouwen — geen klus is te groot of te klein. Danny heeft ruime ervaring met uiteenlopende werkzaamheden en levert altijd kwaliteit.</p>
+
+      <h2>Zakelijk onderhoud</h2>
+      <p>Heeft u een bedrijfspand, winkel of kantoor dat onderhoud nodig heeft? DM Bouw en Onderhoud verzorgt ook onderhoud en kleine verbouwingen voor zakelijke klanten. Flexibel inplanbaar, desnoods buiten kantooruren.</p>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Klus bespreken?</h2>
+      <p>Bel Danny voor een gratis adviesgesprek. Samen bekijken we wat er nodig is.</p>
+      <div class="hero-actions">
+        <a href="tel:+31651989766" class="btn btn-primary">Bel 06-51989766</a>
+        <a href="/contact.html" class="btn btn-secondary">Stuur een bericht</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="images/logo-mark.jpeg" alt="DM" height="40" class="footer-logo">
+        <p>DM Bouw en Onderhoud<br>Uw vaste klussenbedrijf in<br>Apeldoorn en omgeving.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pagina's</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/diensten.html">Diensten</a></li>
+          <li><a href="/over-ons.html">Over ons</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+31651989766">06-51989766</a></li>
+          <li><a href="mailto:info@dmbouwenonderhoud.nl">info@dmbouwenonderhoud.nl</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>&copy; 2026 DM Bouw en Onderhoud — Danny Musse.</p></div></div>
+  </footer>
+  <script>
+    const toggle=document.querySelector('.nav-toggle'),links=document.querySelector('.nav-links');
+    toggle.addEventListener('click',()=>{const o=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',!o);links.classList.toggle('open')});
+    const header=document.getElementById('header');window.addEventListener('scroll',()=>{header.classList.toggle('scrolled',window.scrollY>40)});
+  </script>
+</body>
+</html>
