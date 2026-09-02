@@ -564,3 +564,33 @@ a:hover { color: var(--navy); }
   .btn { width: 100%; text-align: center; }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* ---- WhatsApp ---- */
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-whatsapp:hover {
+  background: #1EBE57;
+  color: #fff;
+}
+.btn-whatsapp svg { flex-shrink: 0; }
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+.whatsapp-float:hover { transform: scale(1.1); }
